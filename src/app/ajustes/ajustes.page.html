@@ -1,0 +1,35 @@
+<ion-header [translucent]="true" mode="ios">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start" routerLink="/tap1">
+      <ion-back-button default-href="#" color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Ajustes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card style="text-align: center;">
+    <ion-card-header>
+      <ion-avatar style="margin: 0 auto;">
+        <img alt="Avatar" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+      </ion-avatar>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item lines="none" >
+        <ion-icon name="person-circle-outline" slot="start" color="primary"></ion-icon>
+        <ion-label><p>Nombre</p>Alex Bolaños</ion-label>
+      </ion-item>
+
+      <ion-item lines="none" >
+        <ion-icon name="information-circle" slot="start" color="primary"></ion-icon>
+        <ion-label><p>Info</p>Welcome back to trench</ion-label>
+      </ion-item>
+
+      <ion-item lines="none" >
+        <ion-icon name="call" slot="start" color="primary"></ion-icon>
+        <ion-label><p>Telefono</p>+52 271 1580476</ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
